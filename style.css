@@ -167,7 +167,6 @@ img {
 #botoes h2:first-child {
   font-family: Pacifico;
   font-size: 1.4rem;
-  display: block;
   background-color: #ff7e9e;
   padding: 10px 50px;
   width: 150px;
@@ -175,6 +174,7 @@ img {
   border-radius: 15px;
   margin-left: -10px;
   margin-right: 20px;
+  font-weight: 100;
 }
 #botoes h2:first-child:hover {
   background-color: #ff2057;
