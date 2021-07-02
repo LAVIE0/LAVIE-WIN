@@ -258,6 +258,12 @@ img {
 #laranja {
   color: #fc3465;
 }
+#saiba a {
+  color: #fc3465;
+}
+#saiba a:hover {
+  color: #a200ff;
+}
 #saiba p {
   margin: 10px 0;
   font-family: Titillium Web;
