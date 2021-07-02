@@ -159,7 +159,6 @@ img {
 #botoes {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 #botoes a {
   margin-top: 30px;
@@ -168,7 +167,7 @@ img {
   font-family: Pacifico;
   font-size: 1.4rem;
   background-color: #ff7e9e;
-  padding: 10px 50px;
+  padding: 10px 20px;
   width: 150px;
   text-align: center;
   border-radius: 15px;
@@ -265,6 +264,12 @@ img {
   font-size: 1.1rem;
   letter-spacing: 0.2px;
 }
+#saiba h2 {
+  text-align: center;
+  color: #a200ff;
+  font-family: Pacifico;
+  font-size: 2rem;
+}
 #cordefundo {
   background-color: #fc3465;
   padding: 20px;
@@ -282,7 +287,7 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
 }
-#contrate h2 {
+#contrate a {
   width: 250px;
   background-color: #ffdede;
   font-family: Pacifico;
@@ -290,6 +295,7 @@ img {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  color: black;
 }
 #container-footer {
   display: flex;
@@ -329,11 +335,9 @@ img {
 #img-footer {
   display: flex;
 }
-#img-footer img:first-child {
-  margin-right: 40px;
-}
+
 #img-footer img:last-child {
-  margin-right: 100px;
+  margin-right: 70px;
 }
 @media (max-width: 720px) {
   #img-footer {
