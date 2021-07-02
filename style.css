@@ -85,7 +85,7 @@ img {
 }
 /* HEADER -------------------------*/
 #header {
-  max-width: 920px;
+  max-width: 1020px;
   margin: 20px auto 0 auto;
   display: flex;
   align-items: center;
@@ -196,7 +196,7 @@ img {
   color: black;
 }
 #eventos {
-  max-width: 920px;
+  max-width: 1020px;
   margin: 0 auto;
   text-align: center;
 }
@@ -244,4 +244,62 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
+}
+#cordefundo {
+  background-color: #fc3465;
+  padding: 20px;
+  margin-top: 50px;
+}
+#contrate {
+  max-width: 1020px;
+  display: flex;
+  margin: 40px auto 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#contrate p {
+  font-family: Titillium Web;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#contrate h2 {
+  width: 250px;
+  background-color: #ffdede;
+  font-family: Pacifico;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+#container-footer {
+  background-color: #ffdede;
+  padding: 50px;
+}
+#img-footer {
+  max-width: 1020px;
+  display: flex;
+  margin: 0 auto;
+}
+#img-footer img:first-child {
+  margin: 0 120px 0 0;
+}
+#img-footer img:last-child {
+  margin-left: 20px;
+}
+#patrocinador::before {
+  content: "asdasdasdasdsa";
+  background-color: red;
+}
+#textos-footer {
+  display: flex;
+  justify-content: space-around;
+}
+#textos-footer p {
+  font-family: Titillium Web;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 50px;
+}
+#textos-footer p:last-child {
+  margin-right: 100px;
 }
