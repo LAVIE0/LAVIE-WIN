@@ -245,6 +245,26 @@ img {
     flex-wrap: wrap;
   }
 }
+#saiba {
+  max-width: 920px;
+  margin: 0 auto;
+}
+#saiba h1 {
+  text-align: center;
+  color: #a200ff;
+  font-family: Pacifico;
+  font-size: 2.5rem;
+  margin-top: 15px;
+}
+#laranja {
+  color: #fc3465;
+}
+#saiba p {
+  margin: 10px 0;
+  font-family: Titillium Web;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+}
 #cordefundo {
   background-color: #fc3465;
   padding: 20px;
