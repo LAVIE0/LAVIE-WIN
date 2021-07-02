@@ -289,6 +289,20 @@ img {
 #textos-footer img {
   max-width: 400px;
 }
+#colaboradores {
+  margin-top: -150px;
+}
+#colaboradores p {
+  font-family: Titillium Web;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+#colaboradores p:after {
+  content: "⬂";
+  background-color: #ffdede;
+}
+
 #textos-footer p {
   font-family: Titillium Web;
   font-weight: bold;
@@ -299,15 +313,12 @@ img {
 #img-footer {
   display: flex;
 }
-#img-footer p {
-  font-family: Titillium Web;
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-align: center;
-  margin: 20px 0;
+#img-footer img:first-child {
+  margin-right: 40px;
+  margin-left: -20px;
 }
 #img-footer img:last-child {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 @media (max-width: 720px) {
   #img-footer {
@@ -316,8 +327,28 @@ img {
   #img-footer img {
     margin: 20px 0;
   }
+  #colaboradores {
+    margin-top: 0px;
+    text-align: center;
+    margin: 0 auto;
+  }
   #img-footer img:last-child {
     margin-left: 0px;
+  }
+  #container-footer {
+    flex-wrap: wrap;
+  }
+  #img-footer {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: block;
+  }
+  #textos-footer {
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #colaboradores p:after {
+    content: "";
   }
 }
 footer {
