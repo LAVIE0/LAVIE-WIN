@@ -103,6 +103,14 @@ img {
   color: #8b8b8b;
   font-weight: 500;
 }
+#header ul a:hover:after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 3px;
+  margin-top: 10px;
+  background: #cc99ff;
+}
 #header ul li:first-child {
   color: #3d3d3d;
 }
