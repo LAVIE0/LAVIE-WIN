@@ -96,9 +96,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.sub img {
-  margin-bottom: 10px;
-}
+
 #header ul li {
   font-family: Titillium Web;
   font-size: 1.2rem;
@@ -106,10 +104,35 @@ img {
   color: #8b8b8b;
   font-weight: 500;
 }
-#header ul a:hover:after {
+
+#header ul a:nth-child(1):hover:after {
   content: "";
   display: block;
-  width: 50px;
+  width: 45px;
+  height: 3px;
+  margin-top: 10px;
+  background: #cc99ff;
+}
+#header ul a:nth-child(2):hover:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin-top: 10px;
+  background: #cc99ff;
+}
+#header ul a:nth-child(3):hover:after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-top: 10px;
+  background: #cc99ff;
+}
+#header ul a:nth-child(4):hover:after {
+  content: "";
+  display: block;
+  width: 80px;
   height: 3px;
   margin-top: 10px;
   background: #cc99ff;
