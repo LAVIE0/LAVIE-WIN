@@ -208,6 +208,7 @@ img {
   margin-left: -10px;
   margin-right: 20px;
   font-weight: 100;
+  color: #231f20;
 }
 #botoes a:first-child:hover {
   background-color: #ff2057;
@@ -326,6 +327,7 @@ img {
   font-family: Titillium Web;
   font-size: 1.5rem;
   font-weight: bold;
+  color: #5f071c;
 }
 #win {
   margin-left: 140px;
@@ -345,7 +347,7 @@ img {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
-  color: black;
+  color: #5f071c;
 }
 #contrate a:hover {
   background-color: #fc3465;
@@ -365,6 +367,7 @@ img {
   justify-content: center;
   margin-bottom: 40px;
   margin-left: 100px;
+  color: #5f071c;
 }
 #textos-footer img {
   max-width: 400px;
@@ -377,6 +380,7 @@ img {
   font-weight: bold;
   font-size: 1.5rem;
   margin-top: 150px;
+  color: #5f071c;
 }
 
 #textos-footer p {
@@ -385,6 +389,7 @@ img {
   font-size: 1.5rem;
   text-align: center;
   margin: 20px 0;
+  color: #5f071c;
 }
 #img-footer {
   display: flex;
@@ -441,6 +446,7 @@ footer {
 #footer p {
   font-family: Titillium Web;
   font-size: 1rem;
+  color: white;
 }
 #footer ul {
   display: flex;
@@ -449,6 +455,7 @@ footer {
   margin: 0 20px;
   font-family: Titillium Web;
   font-size: 1rem;
+  color: white;
 }
 @media (max-width: 720px) {
   #footer {
