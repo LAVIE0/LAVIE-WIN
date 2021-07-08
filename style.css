@@ -311,20 +311,30 @@ img {
   font-size: 2rem;
 }
 #cordefundo {
-  background-color: #fc3465;
+  background-color: #fbd0da;
   padding: 20px;
   margin-top: 50px;
 }
 #contrate {
   max-width: 1020px;
   display: flex;
-  margin: 40px auto 40px auto;
+  margin: 40px auto 0px auto;
   justify-content: space-between;
   align-items: center;
 }
 #contrate p {
   font-family: Titillium Web;
   font-size: 1.5rem;
+  font-weight: bold;
+}
+#win {
+  margin-left: 140px;
+  font-family: Titillium Web;
+  font-size: 1.1rem;
+  margin-top: -15px;
+  color: #5f071c;
+}
+#winsocial {
   font-weight: bold;
 }
 #contrate a {
@@ -336,6 +346,10 @@ img {
   border-radius: 10px;
   text-align: center;
   color: black;
+}
+#contrate a:hover {
+  background-color: #fc3465;
+  color: white;
 }
 #container-footer {
   display: flex;
