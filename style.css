@@ -1,3 +1,4 @@
+/* Reset CSS*/
 html,
 body,
 p,
@@ -242,6 +243,7 @@ img {
   background-color: #c23cb6;
   color: black;
 }
+/* EVENTOS -------------------------*/
 #eventos {
   max-width: 1020px;
   margin: 0 auto;
@@ -300,6 +302,7 @@ img {
     flex-wrap: wrap;
   }
 }
+/* saiba mais -------------------------*/
 #saiba {
   max-width: 920px;
   margin: 0 auto;
@@ -332,6 +335,7 @@ img {
   font-family: Pacifico;
   font-size: 2rem;
 }
+/* FOOTER -------------------------*/
 #cordefundo {
   background-color: #fbd0da;
   padding: 20px;
